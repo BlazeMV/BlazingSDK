@@ -1,0 +1,30 @@
+{
+    "name": "blaze/blazingsdk",
+    "description": "blazing skeleton",
+    "keywords": ["skeleton", "telegram", "telegram bot", "telegram bot sdk", "telegram php", "blazing", "blazing sdk"],
+    "type": "library",
+    "homepage": "https://github.com/BlazeMV/Blazing",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Adam Dawood",
+			"telegram_username" : "@BlazeMV",
+            "email": "ad.adamdavid72@gmail.com",
+            "homepage": "https://github.com/BlazeMV"
+        }
+    ],
+    "require": {
+        "blaze/blazing" : "dev-master"
+    },
+    "scripts" : {
+        "post-update-cmd" : [
+            
+        ],
+        "post-create-project-cmd": [
+		
+        ],
+        "new" : [
+            "Blazing\\ComposerScripts::new"
+        ]
+    }
+}
